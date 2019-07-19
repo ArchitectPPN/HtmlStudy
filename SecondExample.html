@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Bootstrap Example</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<style>
+	.container-fluid{
+		border: 1px solid black;
+		height: 20px;
+	}
+
+	.box{
+		border: 1px solid black;
+	}
+
+	.greenBox{
+		background: bisque;
+	}
+
+	.colorBox{
+		background: aqua;
+	}
+</style>
+<body>
+	<div class="container-fluid">
+		<div class="row box">
+			<div class="col-sm greenBox">
+				Column 1
+			</div>
+			<div class="col-sm colorBox">
+				Column 2
+			</div>
+			<div class="col-sm greenBox">
+				Column 3
+			</div>
+		</div>
+	</div>
+
+	<br />
+
+	<div class="container">
+		<div class="row box">
+			<div class="col-sm greenBox">
+				Column 1
+			</div>
+			<div class="col-sm colorBox">
+				Column 2
+			</div>
+			<div class="col-sm greenBox">
+				Column 3
+			</div>
+		</div>
+	</div>
+
+	<br>
+
+	<div class="container-fluid">
+		<div class="row box">
+			<div class="col-sm greenBox">
+				Column 1
+			</div>
+			<div class="col-sm colorBox">
+				Column 2
+			</div>
+			<div class="col-sm greenBox">
+				Column 3
+			</div>
+		</div>
+
+		<div class="row box text-center">
+			<div class="col-sm greenBox">
+				Column 1
+			</div>
+			<div class="col-sm colorBox">
+				Column 2
+			</div>
+			<div class="col-sm greenBox">
+				Column 3
+			</div>
+			<div class="col-sm colorBox text-center" >
+				Column 4
+			</div>
+		</div>
+	</div>
+
+	<br>
+	<br>
+
+	<div class="container">
+		<div class="row">
+			<div class="col">Column</div>
+			<div class="col">Column</div>
+			<div class="w-100"></div>
+			<div class="col">Column</div>
+			<div class="col">Column</div>
+		</div>
+	</div>
+
+
+</body>
+</html>
